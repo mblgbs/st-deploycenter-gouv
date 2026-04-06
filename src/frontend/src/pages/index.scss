@@ -59,7 +59,40 @@ $tablet: map.get($themes, "default", "theme", "breakpoints", "tablet");
 .drive__header__left {
   display: flex;
   align-items: center;
-  
+}
+
+.drive__home__highlights {
+  padding: 48px 32px 56px;
+  background: var(--c--theme--colors--greyscale-000);
+
+  h3 {
+    margin: 0 0 24px;
+    font-size: 28px;
+    line-height: 1.2;
+  }
+}
+
+.drive__home__highlights__grid {
+  display: grid;
+  gap: 16px;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+
+  article {
+    border: 1px solid var(--c--theme--colors--greyscale-100);
+    border-radius: 12px;
+    padding: 20px;
+    background: var(--c--theme--colors--greyscale-000);
+  }
+
+  h4 {
+    margin: 0 0 8px;
+    font-size: 20px;
+  }
+
+  p {
+    margin: 0;
+    color: var(--c--theme--colors--greyscale-600);
+  }
 }
 
 .c__modal__content__text {
@@ -71,6 +104,18 @@ $tablet: map.get($themes, "default", "theme", "breakpoints", "tablet");
     .c__feedback__button {
       display: none;
     }
+  }
+
+  .drive__home__highlights {
+    padding: 40px 16px 48px;
+
+    h3 {
+      font-size: 24px;
+    }
+  }
+
+  .drive__home__highlights__grid {
+    grid-template-columns: 1fr;
   }
 }
 

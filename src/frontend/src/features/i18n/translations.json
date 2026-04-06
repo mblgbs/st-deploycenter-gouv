@@ -9,6 +9,23 @@
       "home": {
         "title": "Espace Opérateur",
         "subtitle": "Activez et gérez simplement les services de tous vos adhérents.",
+        "highlights": {
+          "title": "Un front-end pensé pour les opérateurs",
+          "cards": {
+            "services": {
+              "title": "Pilotage des services",
+              "description": "Consultez en un coup d'œil les services activés et configurez-les sans quitter l'interface."
+            },
+            "roles": {
+              "title": "Gestion des rôles",
+              "description": "Attribuez les droits d'administration et les rôles métier par organisation en quelques clics."
+            },
+            "followup": {
+              "title": "Suivi simplifié",
+              "description": "Retrouvez rapidement les collectivités adhérentes et suivez leurs statuts de déploiement."
+            }
+          }
+        },
         "access_denied": {
           "forbidden": "Vous n'avez pas les droits pour accéder à cette page.",
           "unauthorized": "Vous devez vous connecter pour accéder à cette page."

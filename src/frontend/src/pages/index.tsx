@@ -75,6 +75,23 @@ export default function Home() {
           }
         />
       </HomeGutter>
+      <section className="drive__home__highlights">
+        <h3>{t("home.highlights.title")}</h3>
+        <div className="drive__home__highlights__grid">
+          <article>
+            <h4>{t("home.highlights.cards.services.title")}</h4>
+            <p>{t("home.highlights.cards.services.description")}</p>
+          </article>
+          <article>
+            <h4>{t("home.highlights.cards.roles.title")}</h4>
+            <p>{t("home.highlights.cards.roles.description")}</p>
+          </article>
+          <article>
+            <h4>{t("home.highlights.cards.followup.title")}</h4>
+            <p>{t("home.highlights.cards.followup.description")}</p>
+          </article>
+        </div>
+      </section>
       <Footer {...footerCustommization} />
     </>
   );
