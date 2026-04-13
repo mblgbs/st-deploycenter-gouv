@@ -97,7 +97,7 @@ When running the project, the following services are available:
 | Service | URL / Port | Description | Credentials |
 |---------|------------|-------------|------------|
 | **Frontend** | [http://localhost:8960](http://localhost:8960) | Main Deploy Center frontend | `user1@example.local` / `user1` |
-| **Backend API** | [http://localhost:8961](http://localhost:8961) | Django [REST API](http://localhost:8961/api/v1.0/) and [Admin](http://localhost:8961/admin/) | `admin@admin.local` / `admin` |
+| **Backend API** | [http://localhost:8961](http://localhost:8961) | Django [REST API](http://localhost:8961/api/v1.0/) and [Admin](http://localhost:8961/admin/) | `admin@admin.local` / `000` |
 | **Keycloak** | [http://localhost:8962](http://localhost:8962) | Identity provider admin | `admin` / `admin` |
 | **Celery UI** | [http://localhost:8963](http://localhost:8963) | Task queue monitoring | No auth required |
 | **PostgreSQL** | 8965 | Database server | `user` / `pass` |

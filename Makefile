@@ -251,9 +251,9 @@ showmigrations: ## show all migrations for the deploycenter project.
 	@$(MANAGE_DB) showmigrations
 .PHONY: showmigrations
 
-superuser: ## Create an admin superuser with password "admin"
+superuser: ## Create an admin superuser with password "000"
 	@echo "$(BOLD)Creating a Django superuser$(RESET)"
-	@$(MANAGE_DB) createsuperuser --email admin@admin.local --password admin
+	@$(MANAGE_DB) createsuperuser --email admin@admin.local --password 000
 .PHONY: superuser
 
 back-i18n-compile: ## compile the gettext files
